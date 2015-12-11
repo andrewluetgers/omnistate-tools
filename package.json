@@ -1,0 +1,34 @@
+{
+  "name": "omnistate-tools",
+  "version": "0.1.0",
+  "description": "Yet another state system for react",
+  "main": "./dist/OmniStateTools.js",
+  "scripts": {
+    "build": "node ./node_modules/gulp/bin/gulp.js default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewluetgers/omnistate-tools.git"
+  },
+  "keywords": [
+    "React",
+    "Om",
+    "state"
+  ],
+  "author": "Andrew Luetgers <andrew.luetgers@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewluetgers/omnistate-tools/issues"
+  },
+  "homepage": "https://github.com/andrewluetgers/omnistate-tools",
+  "peerDependencies": {
+    "lodash": "^3.0.0",
+    "omnistate": "../"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13",
+    "gulp": "*",
+    "gulp-babel": "^6.1.1",
+    "gulp-stylus": "^2.1.1"
+  }
+}
