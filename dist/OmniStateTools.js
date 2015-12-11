@@ -1,5 +1,3 @@
-require('./OmniStateTools.css');
-
 var React = require('react'),
     _ = require('lodash'),
     omni = require('omnistate');

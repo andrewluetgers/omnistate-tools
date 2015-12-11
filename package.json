@@ -1,6 +1,6 @@
 {
   "name": "omnistate-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yet another state system for react",
   "main": "./dist/OmniStateTools.js",
   "scripts": {
