@@ -122,8 +122,12 @@ module.exports = omni.component('OmniStateTools', {
 		}
 
 		return _.map(items, function (log) {
-			return React.createElement(OmniStateHistoryItem, { key: log.ts + "_" + log.path, log: log, active: log.ts == currentTs,
-				setState: setState });
+			return React.createElement(OmniStateHistoryItem, {
+				key: log.ts + "_" + log.path,
+				log: log,
+				active: log.ts == currentTs,
+				setState: setState
+			});
 		}).reverse();
 	},
 
